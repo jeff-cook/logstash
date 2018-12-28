@@ -6,5 +6,5 @@ dependencies:
   path: Dockerfile
   path: Dockerfile.base
 
-- type: ruby
-  path: Gemfile.template
+# - type: ruby
+#   path: Gemfile.template
