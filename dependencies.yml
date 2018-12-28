@@ -4,3 +4,6 @@ dependencies:
 
 - type: dockerfile
   path: Dockerfile
+
+- type: ruby
+  path: Gemfile.template
