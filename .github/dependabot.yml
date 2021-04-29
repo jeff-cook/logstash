@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: docker
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "16:15"
+    timezone: America/Los_Angeles
+  open-pull-requests-limit: 10
+- package-ecosystem: bundler
+  directory: "/qa"
+  schedule:
+    interval: daily
+    time: "16:15"
+    timezone: America/Los_Angeles
+  open-pull-requests-limit: 10
+  allow:
+  - dependency-type: direct
+  - dependency-type: indirect
